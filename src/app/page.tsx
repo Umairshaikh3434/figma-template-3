@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Header'
 import Hero from '../components/hero'
-import Footer from '../components/footer'
 import DontMiss from "../components/DONTMISS";
 import Essential from "../components/ESSENTIAL";
 import Featured from "../components/FEATURED";
@@ -14,9 +13,8 @@ import { CarouselSize } from "../components/BEST"
 export default function page () {
   return(
     <main>
-      <Navbar/>
+      <Navbar/> 
       <Hero/>
-      
       <CarouselSize/>
       <DontMiss/>
       <Essential/>

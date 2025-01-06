@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { relative } from "path";
 import { FaTwitter, FaFacebook, FaYoutube, FaInstagram } from "react-icons/fa";
 import { IoLocationOutline } from "react-icons/io5";  // Import location icon
 
