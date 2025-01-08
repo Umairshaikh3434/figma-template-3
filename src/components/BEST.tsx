@@ -13,7 +13,6 @@ import {
 
 import Link from "next/link"
 import  { airMax } from "../components/data/detail"  
-import { StaticImport } from "next/dist/shared/lib/get-img-props"
 
 export function CarouselSize() {
   return (
